@@ -1,0 +1,10 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.marketplace.envato.com	TRUE	/	FALSE	1999999999	referring_user	mediatec_software
+.marketplace.envato.com	TRUE	/	FALSE	1999999999	clickthrough_id	910350048
+.yandex.ru	TRUE	/	FALSE	1999999999	yandexuid	8390002541485978277
+.yandex.ru	TRUE	/	FALSE	1999999999	yp	1801338277.yrts.1485978277
+mc.yandex.ru	TRUE	/	FALSE	1999999999	yabs-sid	2069015461485978277
+.doubleclick.net	TRUE	/	FALSE	1999999999	test_cookie	CheckForPermission
+.themeforest.net	TRUE	/	FALSE	1999999999	referring_user	-1
+
