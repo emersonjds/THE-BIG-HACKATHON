@@ -1,0 +1,223 @@
+<html lang="en"><head>
+	<meta charset="UTF-8">
+	<title>	Login | Mystro
+</title>
+		<link href="https://s3-ap-southeast-2.amazonaws.com/mystroapp/2-0-16/css/signup.css" rel="stylesheet">
+<link href="chrome-extension://pflmllfnnabikmfkkaddkoolinlfninn/style.css" type="text/css" rel="stylesheet"></head>
+<body class="pg-login">
+		<div>
+		<img src="https://s3-ap-southeast-2.amazonaws.com/mystroapp/2-0-16/img/mystro-logo-white.png" id="mystro-logo" alt="Mystro logo">
+		<h1>
+			Login to your Account
+		</h1>
+				<form method="POST" id="login-form" action="https://app.mystro.co/login">
+			<input name="_token" type="hidden" value="EC1ZR0vumOkO3xtMzZ6Y9iqXq8Dm6Yki1Kimnllw">
+			<input name="callback" type="hidden" value="null">
+			<label>
+			<span class="label-text">
+				Email
+			</span>
+				<input autocapitalize="off" name="email" class="input-field gets-disabled" id="email-input-field" type="text" placeholder="Email" _vkenabled="true">
+			</label>
+			<label>
+			<span class="label-text">
+				Password
+			</span>
+				<input class="input-field gets-disabled" name="password" type="password" placeholder="Password" _vkenabled="true">
+			</label>
+			<input id="submit-button" class="button pc gets-disabled" type="submit" value="Login" name="submit">
+			<p class="login-attempt-status" id="login-attempt-status" hidden="">
+				<img src="https://s3-ap-southeast-2.amazonaws.com/mystroapp/2-0-16/img/ajax-loader-small-white-on-pc.gif" alt="" role="presentation">
+				Authenticating...
+			</p>
+		</form>
+		<p>
+			<a href="/password/request">
+				Forgot password?
+			</a>
+		</p>
+		<p>
+			Don't have an account?
+			<a href=" home.html <!--<!/signup"-->
+				Sign up
+			</a>
+		</p>
+	</div>
+
+	<script async="" src="//www.google-analytics.com/analytics.js"></script><script>
+
+		function onPageReady() {
+
+			'use strict';
+
+			var submitButton = document.getElementById('submit-button');
+			var progressButton = document.getElementById('login-attempt-status');
+			var loginForm = document.getElementById('login-form');
+
+			function init() {
+				loginForm.addEventListener('submit', onFormSubmission);
+			}
+
+			function onFormSubmission() {
+				progressButton.hidden = false;
+				submitButton.hidden = true;
+			}
+
+			init();
+		}
+
+		document.addEventListener('DOMContentLoaded', onPageReady);
+		localStorage.stored_session = '';
+
+	</script>
+
+	<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-38042048-4', 'auto');
+</script>
+
+
+
+<div class="ha"><div id="virtualKeyboardChromeExtensionOverlayScrollExtend" style="display: none; height:500px">
+</div>
+<div id="virtualKeyboardChromeExtensionOverlayDemand" style="display: none;">
+</div>
+<div id="virtualKeyboardChromeExtensionOverlaySettings" _state="closed" class="virtualKeyboardChromeExtensionOverlay" style="display: none;">
+	<ul id="virtualKeyboardChromeExtensionOverlaySettingsUl">
+		<li class="virtualKeyboardChromeExtensionOverlayButton" _action="setKeyboard" _layout="en">EN</li>
+		<li class="virtualKeyboardChromeExtensionOverlayButton" _action="setKeyboard" _layout="ru">RU</li>
+	</ul>
+</div>
+<div id="virtualKeyboardChromeExtensionUrlBar" style="top: -100px;">
+	<form onsubmit="this.action = 'http://'+document.getElementById('virtualKeyboardChromeExtensionUrlBarTextBox').value;">
+	<input type="text" id="virtualKeyboardChromeExtensionUrlBarTextBox" placeholder="http://" _vkenabled="true">
+	<input type="submit" value="Go">
+	</form>
+</div>
+<div id="virtualKeyboardChromeExtension" class="">
+	<div id="virtualKeyboardChromeExtensionDraggableLeft"></div>
+	<div id="virtualKeyboardChromeExtensionDraggableRight"></div>
+	<div id="virtualKeyboardChromeExtensionNumberBarKbdInput" style="display: none;">
+		<table cellpadding="2">
+			<tbody><tr>
+				<td class="kbdH kbdClick" _key="7" _vkenabled="true"><span>7</span></td>
+				<td class="kbdH kbdClick" _key="8" _vkenabled="true"><span>8</span></td>
+				<td class="kbdH kbdClick" _key="9" _vkenabled="true"><span>9</span></td>
+				<td class="kbdH kbdClick" _key="#" _vkenabled="true"><span>#</span></td>
+				<td class="kbdD kbdClick" _key="Backspace" rowspan="2" _vkenabled="true"><span>Back</span></td>
+			</tr>
+		</tbody></table>	
+		<table cellpadding="2">
+			<tbody><tr>
+				<td class="kbdH kbdClick" _key="4" _vkenabled="true"><span>4</span></td>
+				<td class="kbdH kbdClick" _key="5" _vkenabled="true"><span>5</span></td>
+				<td class="kbdH kbdClick" _key="6" _vkenabled="true"><span>6</span></td>
+				<td class="kbdH kbdClick" _key="-" _vkenabled="true"><span>-</span></td>
+				<td class="kbdH kbdClick" _key="(" _vkenabled="true"><span>(</span></td>
+			</tr>
+		</tbody></table>	
+		<table cellpadding="2">
+			<tbody><tr>
+				<td class="kbdH kbdClick" _key="1" _vkenabled="true"><span>1</span></td>
+				<td class="kbdH kbdClick" _key="2" _vkenabled="true"><span>2</span></td>
+				<td class="kbdH kbdClick" _key="3" _vkenabled="true"><span>3</span></td>
+				<td class="kbdH kbdClick" _key="+" _vkenabled="true"><span>+</span></td>
+				<td class="kbdH kbdClick" _key=")" _vkenabled="true"><span>)</span></td>
+			</tr>
+		</tbody></table>	
+		<table cellpadding="2">
+			<tbody><tr>
+				<td class="kbdH kbdClick" _key="0" _vkenabled="true"><span>0</span></td>
+				<td class="kbdH kbdClick" _key="." _vkenabled="true"><span>.</span></td>
+				<td class="kbdH kbdClick" _key="*" _vkenabled="true"><span>*</span></td>
+				<td class="kbdH kbdClick" _key="$" _vkenabled="true"><span>$</span></td>
+				<td class="kbdD kbdClick" _key="Close" _vkenabled="true"><span>Enter</span></td>
+			</tr>
+		</tbody></table>	
+	</div>
+	<div id="virtualKeyboardChromeExtensionMainKbd">
+		<table cellpadding="2" id="virtualKeyboardChromeExtensionNumberBarKbd1">
+			<tbody><tr>
+				<td class="kbdH kbNumberMain kbdClick " _key="1" _vkenabled="true"><span>1</span></td>
+				<td class="kbdH kbNumberMain kbdClick " _key="2" _vkenabled="true"><span>2</span></td>
+				<td class="kbdH kbNumberMain kbdClick " _key="3" _vkenabled="true"><span>3</span></td>
+				<td class="kbdH kbNumberMain kbdClick " _key="4" _vkenabled="true"><span>4</span></td>
+				<td class="kbdH kbNumberMain kbdClick " _key="5" _vkenabled="true"><span>5</span></td>
+				<td class="kbdH kbNumberMain kbdClick " _key="6" _vkenabled="true"><span>6</span></td>
+				<td class="kbdH kbNumberMain kbdClick " _key="7" _vkenabled="true"><span>7</span></td>
+				<td class="kbdH kbNumberMain kbdClick " _key="8" _vkenabled="true"><span>8</span></td>
+				<td class="kbdH kbNumberMain kbdClick " _key="9" _vkenabled="true"><span>9</span></td>
+				<td class="kbdH kbNumberMain kbdClick " _key="0" _vkenabled="true"><span>0</span></td>
+			</tr>
+		</tbody></table>
+		<div id="virtualKeyboardChromeExtensionMainKbdPH"></div>
+	</div>
+	<div id="virtualKeyboardChromeExtensionMainNumbers" style="display: none;">
+		
+				<table cellpadding="2">
+			<tbody><tr>
+				<td class="kbdH kbdClick" _key="_" _vkenabled="true"><span>_</span></td>
+				<td class="kbdH kbdClick" _key="\" _vkenabled="true"><span>\</span></td>
+				<td class="kbdH kbdClick" _key=":" _vkenabled="true"><span>:</span></td>
+				<td class="kbdH kbdClick" _key=";" _vkenabled="true"><span>;</span></td>
+				<td class="kbdH kbdClick" _key=")" _vkenabled="true"><span>)</span></td>
+				<td class="kbdH kbdClick" _key="(" _vkenabled="true"><span>(</span></td>
+				<td class="kbdH kbdClick" _key="/" _vkenabled="true"><span>/</span></td>
+				<td style="width: 2px;"><span></span></td>
+				<td class="kbdH kbdClick" _key="1" _vkenabled="true"><span>1</span></td>
+				<td class="kbdH kbdClick" _key="2" _vkenabled="true"><span>2</span></td>
+				<td class="kbdH kbdClick" _key="3" _vkenabled="true"><span>3</span></td>
+				<td style="width: 2px;"><span></span></td>
+				<td class="kbdD kbdClick" _key="Backspace" _vkenabled="true"><span class="kBack"></span></td>
+			</tr>
+			<tr>
+				<td class="kbdH kbdClick" _key="€" _vkenabled="true"><span>€</span></td>
+				<td class="kbdH kbdClick" _key="$" _vkenabled="true"><span>$</span></td>
+				<td class="kbdH kbdClick" _key="£" _vkenabled="true"><span>£</span></td>
+				<td class="kbdH kbdClick" _key="&amp;" _vkenabled="true"><span>&amp;</span></td>
+				<td class="kbdH kbdClick" _key="@" _vkenabled="true"><span>@</span></td>
+				<td class="kbdH kbdClick" _key="&quot;" _vkenabled="true"><span>"</span></td>
+				<td class="kbdH kbdClick" _key="*" _vkenabled="true"><span>*</span></td>
+				<td style="width: 2px;"><span></span></td>
+				<td class="kbdH kbdClick" _key="4" _vkenabled="true"><span>4</span></td>
+				<td class="kbdH kbdClick" _key="5" _vkenabled="true"><span>5</span></td>
+				<td class="kbdH kbdClick" _key="6" _vkenabled="true"><span>6</span></td>
+				<td style="width: 2px;"><span></span></td>
+				<td class="kbdD kbdClick" _key="Close" _vkenabled="true"><span class="kEnter"></span></td>
+			</tr>
+			<tr>
+				<td class="kbdH kbdClick" _key="?" _vkenabled="true"><span>?</span></td>
+				<td class="kbdH kbdClick" _key="!" _vkenabled="true"><span>!</span></td>
+				<td class="kbdH kbdClick" _key="'" _vkenabled="true"><span>'</span></td>
+				<td class="kbdH kbdClick" _key="}" _vkenabled="true"><span>}</span></td>
+				<td class="kbdH kbdClick" _key="<" _vkenabled="true"><span>&lt;</span></td>
+				<td class="kbdH kbdClick" _key=">" _vkenabled="true"><span>&gt;</span></td>
+				<td class="kbdH kbdClick" _key="-" _vkenabled="true"><span>-</span></td>
+				<td style="width: 2px;"><span></span></td>
+				<td class="kbdH kbdClick" _key="7" _vkenabled="true"><span>7</span></td><td class="kbdH kbdClick" _key="8" _vkenabled="true"><span>8</span></td>
+				<td class="kbdH kbdClick" _key="9" _vkenabled="true"><span>9</span></td>
+				<td style="width: 2px;"><span></span></td>
+				<td class="kbdD kbdClick" _key="&amp;123" _vkenabled="true"><span class="kAbc">ABC</span></td>
+			</tr>
+			<tr>
+				<td class="kbdH kbdClick" _key="[" _vkenabled="true"><span>[</span></td>
+				<td class="kbdH kbdClick" _key="]" _vkenabled="true"><span>]</span></td>
+				<td class="kbdH kbdClick" _key="{" _vkenabled="true"><span>{</span></td>
+				<td class="kbdH kbdClick" _key="}" _vkenabled="true"><span>}</span></td>
+				<td class="kbdH kbdClick" _key="#" _vkenabled="true"><span>#</span></td>
+				<td class="kbdH kbdClick" _key="," _vkenabled="true"><span>,</span></td>
+				<td class="kbdH kbdClick" _key="+" _vkenabled="true"><span>+</span></td>
+				<td style="width: 2px;"><span></span></td>
+				<td colspan="2" class="kbdH kbdClick" _key="0" _vkenabled="true"><span>0</span></td>
+				<td class="kbdD kbdClick" _key="." _vkenabled="true"><span>.</span></td>
+				<td style="width: 2px;"><span></span></td>
+				<td class="kbdD kbdClick" _key="Close" _vkenabled="true"><span class="kClose"></span></td>
+			</tr>
+		</tbody></table>	
+	</div>
+</div>
+</div></body></html>
